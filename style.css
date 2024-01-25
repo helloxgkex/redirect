@@ -1,0 +1,110 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background: linear-gradient(rgb(46 24 100),  rgb(113 106 201), rgb(229 71 110)); 
+}
+
+main {
+    margin: 20px;
+}
+
+#noButton {
+  background-color: #20c0e9;
+  color: white;
+  font-weight: 600;
+  border-radius: 12px;
+  box-shadow: 0 3px 3px black;
+  position: absolute;
+  margin-left: 150px;
+  transition: 0.5s ;
+  font-size: 16px;
+  margin-top: 35px;
+  transform: translate(-50%, -10%);
+  padding:16px 36px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+    display: inline-block;
+
+}
+
+#yesButton {
+  position: absolute;
+  margin-right: 150px;
+  margin-top: 30px;
+}
+
+.header_text {
+  font-family: "Nunito";
+  font-size: 50px;
+  font-weight: bold;
+
+  text-align: match-parent;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.text {
+  font-family: "Nunito";
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(155, 18, 18);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.btn {
+  background-color: #20c0e9;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 3px black;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #0fbfeb;
+  position: absolute;
+  left:calc(50% + ${(Math.random() - 0.5) * 100}px);
+  top:calc(50% + ${(Math.random() - 0.5) * 100}px);
+}
+
+.gif_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  size-adjust:20px  20px;
+}
+p {
+  color: white;
+  margin-left: 50%;
+}
+p a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.50;
+}
