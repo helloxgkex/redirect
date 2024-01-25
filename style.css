@@ -4,9 +4,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: hsla(55, 90%, 67%, 1);
 
-  background: linear-gradient(rgb(46 24 100),  rgb(113 106 201), rgb(229 71 110)); 
-}
+  background: linear-gradient(90deg, hsla(55, 90%, 67%, 1) 0%, hsla(173, 87%, 59%, 1) 50%, hsla(327, 89%, 71%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(55, 90%, 67%, 1) 0%, hsla(173, 87%, 59%, 1) 50%, hsla(327, 89%, 71%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(55, 90%, 67%, 1) 0%, hsla(173, 87%, 59%, 1) 50%, hsla(327, 89%, 71%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7EA60", endColorstr="#3CF2DE", GradientType=1 );
 
 main {
     margin: 20px;
